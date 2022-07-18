@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	margin:0;
+	padding:0;	
+}
+
+img
+{
+	border:0;	
+	padding:0;
+}
+
+br
+{
+	line-height: 42px;
+}
+
+#container
+{
+	position:relative;
+	width:728px;
+	height:90px;
+	border:1px solid #000000;
+	box-sizing:border-box;
+	overflow:hidden;
+	padding:0;
+	margin:0;
+	filter : alpha(opacity=0);
+	background-color:#f4f2ed;
+	-moz-opacity:0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity:0;	
+}
+
+#box{
+  position:relative;
+  margin:0;
+}
+
+#image1
+{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:3;	
+}
+
+#image2
+{
+	position:absolute;
+	top:0px;
+	left:363px;
+	z-index:3;	
+}
+
+#txt2
+{
+	position:absolute;
+	top:31px;
+	left:77px;
+	z-index:2;	
+}
+
+#txt3
+{
+	position:absolute;
+	top:27px;
+	left:250px;
+	z-index:3;	
+}
+
+
+#logo2
+{
+	position:absolute;
+	top:28px;
+	left:644px;
+	z-index:13;
+}
+
+
+#cta_inner1
+{
+	position:relative;
+	margin:8px auto auto 8px;
+	z-index:3;	
+}
+
+
+#cta
+{
+	position:absolute;
+	top:28px;
+	left:502px;
+	width:32px;
+	height:32px;
+	overflow:hidden;
+	background-image:url(cta_circle.png);
+	background-repeat:no-repeat;
+	z-index:3;	
+}
+
+.clickster {
+	border:0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index:1234;
+	cursor:pointer;
+}
